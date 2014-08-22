@@ -49,6 +49,11 @@ An example generating provenance for the page Manchester, for the previous 4 rev
 java -jar target/wikipedia-provenance-0.0.6-jar-with-dependencies.jar -p Manchester -r 4
 ```
 
+An example generating provenance for the page Manchester, for 30 revisions prior to 19:30 on August 20th 2013. Time is formatted according to ISO 8601.
+
+```
+java -jar target/wikipedia-provenance-0.0.6-jar-with-dependencies.jar -p Manchester -startdate "2013-08-20T19:30:00Z" -r 30
+```
 
 An example using Neo4j as the data store (at the default address of http://localhost:7474)
 ```
