@@ -39,8 +39,7 @@ usage: wiki2prov
 
 ###Dependencies###
 
-GNU wdiff: https://www.gnu.org/software/wdiff/ is required if you want to be generate quantitative provenance information about diffs between revisions (--diff).
-
+GNU wdiff: https://www.gnu.org/software/wdiff/ is required if you want to generate quantitative provenance information about diffs between revisions (--diff).
 
 
 ###Examples###
